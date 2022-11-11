@@ -88,3 +88,31 @@ section .card .image img {
     text-align: center;
     margin-top: 10px;
 }
+
+.card .star-rating {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card .star-rating i {
+    color: #7d2ae8;
+    font-size: 18px;
+    margin: 0 2px;
+}
+
+.card .button-class {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 27px;
+}
+
+.card .button-class button {
+    color: #fff;
+    background-color: #7d2ae8;
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+    border-radius: 4px;
+}
