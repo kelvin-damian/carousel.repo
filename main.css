@@ -48,3 +48,43 @@ section .card .image img {
     position: relative;
     z-index: 100px;
 }
+
+.card .madia-icon {
+    position: absolute;
+    right: 22px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card .madia-icon i {
+    color: #fff;
+    opacity: 0.6;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.card .madia-icon i:hover {
+    opacity: 1;
+}
+
+.card .name-professional {
+    display: flex;
+    flex-direction: column;
+    color: #333;
+}
+
+.name-professional .name {
+    font-size: 20px;
+    font-weight: 600px;
+    text-align: center;
+    margin-top: 29px;
+}
+
+.name-professional .professional {
+    font-weight: 500px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
